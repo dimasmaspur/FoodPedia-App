@@ -5,4 +5,4 @@ Build with XML, JAVA and MATERIAL DESIGN.
 
 ### Explore Page
 
-<img src="https://github.com/dimasmaspur/FoodPedia-App/blob/master/Screenshot_2020-03-19-00-05-34-33.png" width="48">
+<img src="https://github.com/dimasmaspur/FoodPedia-App/blob/master/Screenshot_2020-03-19-00-05-34-33.png" width="100">
