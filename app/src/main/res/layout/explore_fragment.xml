@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Explore"
+            android:textSize="28dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="6dp"
+            android:fontFamily="sans-serif-condensed-medium"
+           android:textStyle="normal"/>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:paddingRight="10dp"
+           android:layout_gravity="right">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Top 3 Foods"
+               android:fontFamily="sans-serif-condensed-medium"
+               />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/dropdown"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:paddingRight="7dp"
+               >
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/sate"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Sate"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/gado"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Gado gado"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:paddingLeft="7dp">
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/rendang"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Rendang"/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       pembatas linear atas dan bawah -->
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:paddingRight="10dp"
+           android:layout_marginTop="15dp"
+           android:layout_gravity="right">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Top 3 Drinks"
+               android:fontFamily="sans-serif-condensed-medium"
+               />
+           <ImageView
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:src="@drawable/dropdown"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:paddingRight="7dp"
+               >
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/boba"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Boba"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/jus"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Jus"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:paddingLeft="7dp">
+
+               <ImageView
+                   android:layout_width="103dp"
+                   android:layout_height="93dp"
+                   android:src="@drawable/thaitea"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Thaitea"/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+           android:layout_marginTop="20dp"
+           app:cardBackgroundColor="#079992"
+           app:cardElevation="4dp"
+           app:cardCornerRadius="13dp"
+           app:cardMaxElevation="6dp"
+           app:contentPadding="17dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kami adalah FoodPedia"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="22sp"
+                android:textColor="@color/tabTextColor"
+                />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:text="Tempat dimana kamu bisa menemukan makanan dan minuman yang sedang trending."
+                   android:fontFamily="sans-serif-condensed-light"
+                   android:textSize="15sp"
+                   android:textColor="@color/tabTextColor"
+                   />
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Rating Terbaik"
+           android:textSize="25dp"
+           android:paddingTop="10dp"
+           android:paddingLeft="6dp"
+           android:fontFamily="sans-serif-condensed-medium"
+           android:textStyle="normal"/>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+           android:layout_marginTop="20dp"
+           app:cardBackgroundColor="@color/colorPrimary"
+           app:cardElevation="4dp"
+           app:cardCornerRadius="13dp"
+           app:cardMaxElevation="6dp"
+           app:contentPadding="17dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="120dp"
+                   android:layout_height="95dp"
+                   android:src="@drawable/sate"
+                   android:elevation="4dp"
+                   />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Sate Ayam Khas Madura"
+                       android:layout_marginLeft="15dp"
+                       android:fontFamily="sans-serif-condensed-medium"
+                       android:textSize="20sp"
+                       android:textColor="@color/tabTextColor"
+                       />
+                   <ImageView
+                       android:layout_width="120dp"
+                       android:layout_height="46dp"
+                       android:src="@drawable/rating"
+                       android:layout_gravity="left"
+                       android:layout_marginLeft="15dp"/>
+               </LinearLayout>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Copyright Dimas Purwanto"
+           android:layout_gravity="center"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="30dp"
+           />
+   </LinearLayout>
+
+</ScrollView>

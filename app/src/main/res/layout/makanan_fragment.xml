@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Trending Foods This Week"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="6dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textStyle="normal"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#f1f2f6"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="13dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="17dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/sate"
+                    android:elevation="4dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sate Ayam Khas Madura"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/rating"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#f1f2f6"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="13dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="17dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="122dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/rendang"
+                    android:elevation="4dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rendang"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        />
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/four"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#f1f2f6"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="13dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="17dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/gado"
+                    android:elevation="4dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gado gado"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        />
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/tri"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="#079992"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="13dp"
+            app:cardMaxElevation="6dp"
+            app:contentPadding="17dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makanan trending ala FoodPedia"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="22sp"
+                    android:textColor="@color/tabTextColor"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Makanan yang berada di top trending dipilih berdasarkan jumlah vote user."
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:textSize="15sp"
+                    android:textColor="@color/tabTextColor"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright Dimas Purwanto"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
