@@ -1,6 +1,7 @@
 # FoodPedia App
 
-Android application that implements fragment and viewpager
+Android application that implements fragment and viewpager.
+###
 Build with XML, JAVA and MATERIAL DESIGN.
 
 ### Explore Page
@@ -9,13 +10,13 @@ Build with XML, JAVA and MATERIAL DESIGN.
 
 
 
-
+###
 
 ### Foods Page
 
 <img src="https://github.com/dimasmaspur/FoodPedia-App/blob/master/Screenshot_2020-03-19-00-05-41-06.png" width="400" >
 
-
+###
 
 
 ### Drinks Page
